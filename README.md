@@ -1,6 +1,3 @@
-# Showcasing Different Types of Search Problems Using Maze
-
-This repository demonstrates different search algorithms using a **maze problem** as an example.
 
 # Showcasing Different Types of Search Problems Using Maze
 
@@ -11,13 +8,18 @@ It allows you to generate mazes, visualize them, and solve them using **DFS** an
 
 ## Table of Contents
 
-- [Overview](#overview)  
-- [Maze Class](#maze-class)  
-- [Search Algorithms](#search-algorithms)  
-  - [Depth-First Search (DFS)](#depth-first-search-dfs)  
-  - [Breadth-First Search (BFS)](#breadth-first-search-bfs)  
-- [Visualization](#visualization)  
-- [Challenges & Notes](#challenges--notes)  
+- [Showcasing Different Types of Search Problems Using Maze](#showcasing-different-types-of-search-problems-using-maze)
+  - [Table of Contents](#table-of-contents)
+  - [Overview](#overview)
+  - [search-algorithms](#search-algorithms)
+  - [What is a Search Problem?](#what-is-a-search-problem)
+  - [Depth-First Search (DFS)](#depth-first-search-dfs)
+  - [Breadth-First Search (BFS)](#breadth-first-search-bfs)
+  - [Choosing Between DFS and BFS](#choosing-between-dfs-and-bfs)
+  - [Heuristics and Advanced Methods](#heuristics-and-advanced-methods)
+    - [A\* Search Algorithm](#a-search-algorithm)
+  - [Challenges Addressed in This Repository](#challenges-addressed-in-this-repository)
+  - [Notes](#notes)
 
 ---
 
@@ -34,23 +36,8 @@ This repository focuses on:
 
 ---
 
-## Maze Class
 
-The `Maze` class handles maze creation, barriers, and visualization.
-
-```python
-from maze import Maze
-
-# Create a 10x10 maze
-maze1 = Maze(10, 10)
-
-# Add 30 random barriers
-maze1.build(30)
-
-# Visualize the maze
-maze1.darw()
-
-## Search Algorithms Implemented
+## search-algorithms
 
 There are two fundamental types of search algorithms implemented:
 
