@@ -8,7 +8,7 @@ It allows you to generate mazes, visualize them, and solve them using **DFS** an
 
 ## Table of Contents
 
-- [Showcasing Different Types of Search Problems Using Maze](#showcasing-different-types-of-search-problems-using-maze)
+- [Showcasing Different Types of Search Problems Using Maze]
   - [Table of Contents](#table-of-contents)
   - [Overview](#overview)
   - [search-algorithms](#search-algorithms)
